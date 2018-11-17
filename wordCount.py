@@ -13,8 +13,8 @@ def findNoun(i, nouns, words):
     count = 0
     while(not checker):
         count += 1
-        #if ( words[i - count] in nouns and words[i - count] != "a"):
-        if ( words[i - count] in nouns):
+        if ( words[i - count] in nouns and words[i - count] != "a"):
+        #if ( words[i - count] in nouns):
             previousNoun = words[i - count]
             prev = count
             checker = True
@@ -24,8 +24,8 @@ def findNoun(i, nouns, words):
     count = 0
     while(not checker):
         count += 1
-        #if ( words[i + count] in nouns and words[i - count] != "a"):
-        if ( words[i + count] in nouns):
+        if ( words[i + count] in nouns and words[i - count] != "a"):
+        #if ( words[i + count] in nouns):
             nextNoun = words[i + count]
             next = count
             checker = True
