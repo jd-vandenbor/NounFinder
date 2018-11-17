@@ -2,6 +2,8 @@
 this program concatenates files, and gets the wordcount for specific words. After that, for each occurence of one of the words, it finds the closest noun in the text and keeps track of it. Finally for each word, it outputs the most common "close noun".
 
 to run the file simply run from the command line wordCount.py
+
+Output:
 - the first output will be the total wordcount of the document
 - followed by the list of words and there total number of occurences
 - then a bar graph will pop up and display the number of occurrences
